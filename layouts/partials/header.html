@@ -1,0 +1,22 @@
+<header class="header">
+    <span class="header__inner">
+        {{ partial "logo.html" . }}
+
+        <span class="header__right">
+            {{ if len .Site.Menus }}
+            <nav class="menu">
+                <ul class="menu__inner">
+                    {{- $currentPage := . -}}
+                    {{ range .Site.Menus.main -}}
+                        <li><a href="{{ .URL }}">{{ .Name }}</a></li>
+                    {{- end }}
+                    <li><a href="https://antwave.onlne/portfolio">Portfolio</a></li>
+                    <li><a href="https://x.com/antw4ve">twitter!</a></li>
+                </ul>
+            </nav>
+
+                </span>
+            {{ end }}
+        </span>
+    </span>
+</header>

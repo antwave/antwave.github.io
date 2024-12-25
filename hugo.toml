@@ -1,0 +1,19 @@
+baseURL = 'https://antwave.online/'
+languageCode = 'es-es'
+title = 'ANTWAVE.BLOG'
+params.homeSubtitle = 'too many thoughts, too bad a memory'
+
+sectionPagesMenu = 'main'
+
+[params.logo]
+    logoMark     = ">"
+    logoText     = "ANT.WAV"
+    logoHomeLink = "/"
+    # Set true to remove the logo cursor entirely.
+    # logoCursorDisabled = false
+    # Set to a valid CSS color to change the cursor in the logo.
+    logoCursorColor    = "#eef525"
+    # Set to a valid CSS time value to change the animation duration, "0s" to disable.
+    logoCursorAnimate  = "3s"
+    # Append the current url pathname to logoText 
+    # logoCursorPathname = false
