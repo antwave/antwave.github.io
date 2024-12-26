@@ -2,17 +2,24 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>ANTWAVE.BLOG</title>
-    <link>http://localhost:1313/</link>
+    <link>https://antwave.online/</link>
     <description>Recent content on ANTWAVE.BLOG</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>es-es</language>
-    <lastBuildDate>Wed, 21 Aug 2024 20:08:15 +0200</lastBuildDate>
-    <atom:link href="http://localhost:1313/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Thu, 26 Dec 2024 20:08:15 +0200</lastBuildDate>
+    <atom:link href="https://antwave.online/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Post De Prueba 2</title>
+      <link>https://antwave.online/posts/post-de-prueba-2/</link>
+      <pubDate>Thu, 26 Dec 2024 20:08:15 +0200</pubDate>
+      <guid>https://antwave.online/posts/post-de-prueba-2/</guid>
+      <description>Post de prueba</description>
+    </item>
     <item>
       <title>Post De Prueba</title>
-      <link>http://localhost:1313/posts/post-de-prueba/</link>
+      <link>https://antwave.online/posts/post-de-prueba/</link>
       <pubDate>Wed, 21 Aug 2024 20:08:15 +0200</pubDate>
-      <guid>http://localhost:1313/posts/post-de-prueba/</guid>
+      <guid>https://antwave.online/posts/post-de-prueba/</guid>
       <description>Post de prueba</description>
     </item>
   </channel>
