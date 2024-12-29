@@ -1,14 +1,12 @@
-
-
 {{ define "main" }}
-    <div>
+    <div style="max-width: 800px">
         <main aria-role="main" class="index-main">
             <div>
                 {{ if .Site.Params.Portrait.Path }}
                 <img src="{{ .Site.Params.Portrait.Path }}" class="circle" alt="{{ .Site.Params.Portrait.Alt }}" style="max-width:{{ .Site.Params.Portrait.MaxWidth }}" />
                 {{ end }}
 
-                <h1>{{ .Site.Title }}</h1>
+                <h1><span style="color: #00ffff">ANT</span><span style="color: #ff5fd7">WAVE</span><span style="color: #b9b900">.</span>BLOG</h1>
 
                 {{- with .Site.Params.homeSubtitle }}
                     <p>{{.}}</p>
@@ -36,18 +34,19 @@
                 </main>
             </div>
         </main>
-        <div>
-            <h2 style="display: block;">Updates</h2>
+        <div style="padding-left: 5%; padding-right: 5%;">
+            <h2 style="display: block;">Latest</h2>
             <div>
-                <p>I have recently updated this blog as of September 2024!</p>
+                <p>Woa! 2024 already went by! what a year. It was full of challenges to the brim. I'm entering 2025 with the most energy I've ever had. So, as Charles Martinet would put it:</p>
+                <p>here we go!!!</p>
             </div>
         </div>
-        <div style="margin-top: 5vh; margin-bottom: -20vh;">
+        <div style="margin-top: 7vh; margin-bottom: -20vh;">
             {{ $image := resources.Get "images/kirby.gif" }}
             {{ with $image }}
-            <img src="{{ $image.RelPermalink }}" width="150rem" style="margin: auto; margin-bottom: -7%;">
+            <img src="{{ $image.RelPermalink }}" width="150rem" style="margin: auto; margin-bottom: -2rem;">
             {{ end }}
-            <h6 style="display: block;">ANT.WAV</h6>
+            <h6 style="display: block; padding: 10px;">ANT.WAV</h6>
         </div>    
     </div>
 {{ end }}
