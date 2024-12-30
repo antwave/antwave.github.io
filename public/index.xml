@@ -2,31 +2,31 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>ANTWAVE.BLOG</title>
-    <link>http://localhost:1313/</link>
+    <link>https://antwave.online/</link>
     <description>Recent content on ANTWAVE.BLOG</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>es-es</language>
-    <lastBuildDate>Thu, 26 Dec 2024 20:08:15 +0200</lastBuildDate>
-    <atom:link href="http://localhost:1313/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Mon, 30 Dec 2024 18:05:58 +0100</lastBuildDate>
+    <atom:link href="https://antwave.online/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>About This Blog</title>
+      <link>https://antwave.online/about/</link>
+      <pubDate>Mon, 30 Dec 2024 18:05:58 +0100</pubDate>
+      <guid>https://antwave.online/about/</guid>
+      <description>This blog was created by Ant with wholehearted love using Hugo to scratch the longtime itch of documenting whatever is on my mind since my memory is terribly unreliable. I often struggle to vaguely remember past experiences, let alone intrincate thoughts and feelings, which are vollatile and vanish as soon as the wind changes. And what&amp;rsquo;s there more important than thoughts and feelings anyway.&#xA;That&amp;rsquo;s not the actual itch, however. The real motivation behind this blog is to speak to the world.</description>
+    </item>
     <item>
       <title>Post De Prueba 2</title>
-      <link>http://localhost:1313/posts/post-de-prueba-2/</link>
+      <link>https://antwave.online/posts/post-de-prueba-2/</link>
       <pubDate>Thu, 26 Dec 2024 20:08:15 +0200</pubDate>
-      <guid>http://localhost:1313/posts/post-de-prueba-2/</guid>
+      <guid>https://antwave.online/posts/post-de-prueba-2/</guid>
       <description>Post de prueba</description>
     </item>
     <item>
-      <title>About!</title>
-      <link>http://localhost:1313/about/</link>
-      <pubDate>Wed, 21 Aug 2024 20:08:15 +0200</pubDate>
-      <guid>http://localhost:1313/about/</guid>
-      <description>Antonio!!</description>
-    </item>
-    <item>
       <title>Post De Prueba</title>
-      <link>http://localhost:1313/posts/post-de-prueba/</link>
+      <link>https://antwave.online/posts/post-de-prueba/</link>
       <pubDate>Wed, 21 Aug 2024 20:08:15 +0200</pubDate>
-      <guid>http://localhost:1313/posts/post-de-prueba/</guid>
+      <guid>https://antwave.online/posts/post-de-prueba/</guid>
       <description>Post de prueba</description>
     </item>
   </channel>
