@@ -17,7 +17,7 @@ This blog uses a heavily customized version of the [hello-friend-ng](https://git
 
 That's me!!! I'm a 29 year old guy who just loves doing more things than his time allows. Here's a picture of me!
 
-![Ant in Senso-ji](/assets/images/senso-ji.jpg)
+![Ant in Senso-ji](/images/senso-ji.jpg)
 
 My interest are wide: I love learning new things, music, hot matcha, reading (fiction and non-fiction and manga), meeting new people and making a good use of my time. I love taking pictures of the beautiful things I see every day. And I'm currently learning Japanese!!! Oh, and for some reason I'm also interested in macroeconomics and the stock market (NOT cryptos, real economics.)
 
