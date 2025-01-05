@@ -2,6 +2,8 @@ baseURL = 'antwave.online'
 languageCode = 'es-es'
 title = 'ANTWAVE.BLOG'
 params.homeSubtitle = 'too many thoughts, too bad a memory'
+params.gitUrl = 'https://github.com/antwave/antwave.github.io/commit/'
+enableGitInfo = true
 
 sectionPagesMenu = 'main'
 
