@@ -19,7 +19,7 @@ That's me!!! I'm a 29 year old guy who just loves doing more things than his tim
 
 ![Ant in Senso-ji](/images/senso-ji.jpg)
 
-My interest are wide: I love learning new things, music, hot matcha, reading (fiction and non-fiction and manga), meeting new people and making a good use of my time. I love taking pictures of the beautiful things I see every day. And I'm currently learning Japanese!!! Oh, and for some reason I'm also interested in macroeconomics and the stock market (NOT cryptos, real economics.)
+My interest are wide: I love learning new things, music, hot matcha, reading (fiction and non-fiction and manga), meeting new people and making a good use of my time. I love taking pictures of the beautiful things I see every day. And I'm currently learning Japanese!!! Oh, and for some reason I'm also interested in macroeconomics and the stock market (NOT cryptos, real economics!!!)
 
 **But the thing I love the most is video games**. I wake up thinking video games and go to bed thinking video games. Present and past. Widely-known and indie. I love playing, of course, but I'm also interested in the industry surrounding games, in their history, in their design. Lately I haven't been able to devote much time to them and it almost hurts, it's as if something is missing. So I'm determined to fix that!
 

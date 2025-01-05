@@ -3,6 +3,9 @@
     <main class="post">
         <article>
             <h2 class="post-title"><a href="{{ .Permalink }}">{{ .Title | markdownify }}</a></h2>
+            <div class="post-info">
+                {{ .Date | time.Format ":date_medium" }}
+            </div>
             {{ if .Params.Cover }}
                 <figure class="post-cover">
                     <img src="{{ .Params.Cover | absURL }}" alt="{{ .Title }}" />
