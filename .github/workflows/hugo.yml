@@ -59,7 +59,7 @@ jobs:
       - name: Refactor links
         run: | 
           grep -rli "antwave.github.io" * | xargs -i@ sed -i "s/antwave.github.io/antwave.online/g" @
-           |
+           &&
           grep -rli "github.com\/antwave\/antwave.online" * | xargs -i@ sed -i "s/antwave.online/antwave.github.io/g" @
       - name: Upload artifact
         uses: actions/upload-pages-artifact@v3
