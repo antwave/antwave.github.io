@@ -1,5 +1,5 @@
 +++
-title = 'About Antwave'
+title = 'About ANTWAVE.ONLINE'
 date = 2024-12-30T18:05:58+01:00
 draft = false
 
