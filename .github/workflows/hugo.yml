@@ -56,6 +56,9 @@ jobs:
           hugo \
             --minify \
             --baseURL "${{ steps.pages.outputs.base_url }}/"
+      - name: Refactor links
+        run: | 
+          grep -rli 'http://antwave.github.io' * | xargs -i@ sed -i 's/http://antwave.github.io/antwave.online/g' @
       - name: Upload artifact
         uses: actions/upload-pages-artifact@v3
         with:
