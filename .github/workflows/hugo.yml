@@ -55,7 +55,8 @@ jobs:
           HUGO_ENVIRONMENT: production
         run: |
           hugo \
-            --minify
+            --minify \
+            --baseURL "${{ steps.pages.outputs.base_url }}/"
       - name: Refactor links
         run: |
           grep -rli "antwave.github.io" * | xargs -i@ sed -i "s/antwave.github.io/antwave.online/g" @
