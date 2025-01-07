@@ -43,6 +43,7 @@ jobs:
         uses: actions/checkout@v4
         with:
           submodules: recursive
+          fetch-depth: 0
       - name: Setup Pages
         id: pages
         uses: actions/configure-pages@v5
@@ -56,6 +57,10 @@ jobs:
           hugo \
             --minify \
             --baseURL "${{ steps.pages.outputs.base_url }}/"
+      - name: Refactor links
+        run: | 
+          grep -rli "antwave.github.io" * | xargs -i@ sed -i "s/antwave.github.io/antwave.online/g" @
+          grep -rli "github.com\/antwave\/antwave.online" * | xargs -i@ sed -i "s/antwave.online/antwave.github.io/g" @
       - name: Upload artifact
         uses: actions/upload-pages-artifact@v3
         with:
