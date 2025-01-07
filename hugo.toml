@@ -1,4 +1,4 @@
-baseURL = 'antwave.online'
+baseURL = 'https://antwave.online/'
 languageCode = 'es-es'
 title = 'ANTWAVE.BLOG'
 params.homeSubtitle = 'too many thoughts, too bad a memory'
