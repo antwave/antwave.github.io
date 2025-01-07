@@ -3,7 +3,7 @@
         {{ partial "logo.html" . }}
 
         <span class="header__right">
-            {{ if len .Site.Menus }}
+            {{ if len site.Menus.main }}
             <nav class="menu">
                 <ul class="menu__inner">
                     {{- $currentPage := . -}}
