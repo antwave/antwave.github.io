@@ -3,6 +3,7 @@
         {{ partial "logo.html" . }}
 
         <span class="header__right">
+            {{ if len .Site.Menus.main }}
             <nav class="menu">
                 <ul class="menu__inner">
                     {{- $currentPage := . -}}
@@ -12,6 +13,7 @@
                     <li><a href="https://antwave.online/portfolio">Portfolio</a></li>
                 </ul>
             </nav>
+            {{ end }}
         </span>
     </span>
 </header>

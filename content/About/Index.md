@@ -2,7 +2,7 @@
 title = 'About ANTWAVE.ONLINE'
 date = 2024-12-30T18:05:58+01:00
 draft = false
-
+menus = 'main'
 +++
 
 This blog was created by Ant with wholehearted love using [Hugo](https://gohugo.io/) to scratch the longtime itch of documenting whatever is on my mind since my memory is terribly unreliable. I often struggle to vaguely remember past experiences, let alone intrincate thoughts and feelings, which are vollatile and vanish as soon as the wind changes. And what's there more important than thoughts and feelings anyway.
