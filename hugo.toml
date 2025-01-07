@@ -1,7 +1,7 @@
 baseURL = 'https://antwave.online/'
 languageCode = 'es-es'
 title = 'ANTWAVE.BLOG'
-params.homeSubtitle = 'Time passes, people move. Like a river's flow, it never ends...'
+params.homeSubtitle = "Time passes, people move. Like a river's flow, it never ends..."
 params.gitUrl = 'https://github.com/antwave/antwave.github.io/commit/'
 enableGitInfo = true
 
