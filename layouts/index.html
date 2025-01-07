@@ -1,6 +1,7 @@
 {{ define "main" }}
     <div style="max-width: 800px">
         <main aria-role="main" class="index-main">
+            <div style="padding: 10px;"></div>
             <div>
                 {{ if .Site.Params.Portrait.Path }}
                 <img src="{{ .Site.Params.Portrait.Path }}" class="circle" alt="{{ .Site.Params.Portrait.Alt }}" style="max-width:{{ .Site.Params.Portrait.MaxWidth }}" />
